@@ -24,3 +24,18 @@ Proyek ini bertujuan untuk mengonversi input suara (audio) menjadi teks secara a
    ```bash
    git clone [https://github.com/Indraganendr/PBL4.git](https://github.com/Indraganendr/PBL4.git)
    cd PBL4
+2. **Setup Virtual Environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Untuk Linux/Mac
+   # atau
+   .\venv\Scripts\activate  # Untuk Windows
+3. **Install Dependensi Python**
+   ```bash
+   pip install -r requirements.txt
+4. Konfigurasi Database & API
+   - Pastikan PostgreSQL sudah berjalan.
+   - Siapkan API Key Gemini AI Anda di file konfigurasi atau environment variable.
+
+📄 Struktur Proyek
+Proyek ini dikembangkan secara modular tanpa menggunakan framework besar untuk menjaga performa dan fleksibilitas dalam eksperimen backend.
